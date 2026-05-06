@@ -6,7 +6,7 @@ class Student:
         self.g = grade 
 
 
-    def info(self):
+    def info(self) -> None:
         print(f"information about student: Name: {self.n}, Age: {self.a}, Grade: {self.g}")
 
 student01 = Student("ali", 15, 9)
